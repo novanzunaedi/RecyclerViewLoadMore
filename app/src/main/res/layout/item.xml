@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <ImageView
+        android:src="@drawable/ic_github"
+        android:id="@+id/avatar"
+        android:layout_width="70dp"
+        android:layout_centerVertical="true"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:textColor="#111"
+        android:text="Name"
+        android:layout_toEndOf="@id/avatar"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"/>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e8ec"/>
+
+</RelativeLayout>

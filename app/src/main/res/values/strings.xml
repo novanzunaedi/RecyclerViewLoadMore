@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GithubUserApp</string>
+
+    <string name="search_github_users">Search Github users</string>
+    <string name="title_error">Title Error</string>
+    <string name="message_error">Search Github Users</string>
+</resources>
